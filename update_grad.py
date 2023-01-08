@@ -192,4 +192,4 @@ def plot_comparison(X, y, w, b, gradsolve_func, cost_func):
     fig.suptitle('Target versus Prediction')
     plt.show()
 
-plot_comparison(X_val, Y, w_init, b_init, grad_descenti_solver, cost_computation)
+plot_comparison(X_val, Y, w_init, b_init, grad_descent_solver, cost_computation)
